@@ -18,6 +18,7 @@ class CashRegister
   def apply_discount
     if @discount 
       percentage_discount = (self.total / 100.0)
+      self.total = self.total - (self.total * )
   
   
 end
