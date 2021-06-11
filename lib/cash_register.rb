@@ -9,4 +9,7 @@ class CashRegister
     @items = items 
   end
   
+  def add_item(item, price)
+    
+  
 end
