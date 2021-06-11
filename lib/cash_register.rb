@@ -15,4 +15,7 @@ class CashRegister
     quantity.times{(@items.push(title))}
   end 
   
+  def apply_discount
+  
+  
 end
