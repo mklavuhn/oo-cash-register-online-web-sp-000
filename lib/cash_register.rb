@@ -19,6 +19,12 @@ class CashRegister
     if @discount 
       percentage_discount = (self.total / 100.0)
       self.total = self.total - (self.total * percentage_discount).to_i
+      "After the discount, the total comes to $#{self.total}."
+    else 
+      "There is no discount to apply."
+    end
+  end
+  
   
   
 end
